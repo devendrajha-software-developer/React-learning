@@ -194,3 +194,9 @@ import Component from "./path";
 
 export const component;
 import {component } from "./Path";
+
+
+# React Hooks
+(Normal JS utility Function)
+- useState() -> superpowerful state veriables in react
+- useEffect()
