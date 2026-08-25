@@ -5,9 +5,11 @@ import { CDN_URL } from "../../utils/constants.js";
 const cardStyle = {
   backgroundColor: "#f0f0f0",
 };
+
+
 const RestaurantCard = (props) => {
   const { resturantData } = props;
-
+  // destructuring
   const {
     name,
     avgRating,

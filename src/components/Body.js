@@ -39,6 +39,10 @@ const Body = () => {
   // useEffect Hook is used to perform side effects in the component. It takes 2 arguments,
   // first is the function to be executed and second is the dependency array.
   // If the dependency array is empty, the function will be executed only once when the component is mounted.
+
+  // Side effects -> are operations that interact with the outside world, such as fetching data, manually changing the DOM, setting up subscriptions, or configuring timers.
+
+
   // API call to get the list of restaurants
   const fetchSwiggyData = async () => {
     const data = await fetch(
