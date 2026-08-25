@@ -181,3 +181,14 @@
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.user-class-card {
+    width: 250px;
+    min-height: 330px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
