@@ -1,7 +1,6 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { LOGO_URL } from "../../utils/constants.js";
-import {useState} from "react";
-import { Link } from "react-router"
 
 // Header Component
 const Header = () => {

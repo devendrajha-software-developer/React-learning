@@ -1,4 +1,4 @@
-import { useRouteError, isRouteErrorResponse } from "react-router";
+import { useRouteError } from "react-router-dom";
 // using this useRouteError Hook it will give us more info aboout the Error
 
 const Error = () => {
